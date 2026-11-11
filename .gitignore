@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 数据与模型（不入库，体积大）
+*.pt
+*.pth
+*.ckpt
+data/
+
+# 系统文件
+.DS_Store
+Thumbs.db
