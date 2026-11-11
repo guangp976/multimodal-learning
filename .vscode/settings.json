@@ -1,0 +1,26 @@
+{
+  "python.defaultInterpreterPath": "D:\\多模态\\env\\mm\\Scripts\\python.exe",
+  "git.path": "D:\\workbuddy\\resources\\vendor\\PortableGit\\cmd\\git.exe",
+  "python.terminal.activateEnvironment": true,
+  "terminal.integrated.profiles.windows": {
+    "多模态环境(venv)": {
+      "path": "C:\\Windows\\System32\\cmd.exe",
+      "args": ["/k", "D:\\多模态\\env\\terminal_init.cmd"],
+      "icon": "terminal-cmd"
+    },
+    "Command Prompt": {
+      "path": "C:\\Windows\\System32\\cmd.exe",
+      "args": []
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "多模态环境(venv)",
+  "terminal.integrated.env.windows": {
+    "PATH": "D:\\多模态\\env\\mm\\Scripts;D:\\多模态\\env\\python312;${env:PATH}",
+    "PYTHONUTF8": "1",
+    "PYTHONIOENCODING": "utf-8"
+  },
+  "editor.fontSize": 15,
+  "editor.tabSize": 4,
+  "files.autoSave": "afterDelay",
+  "jupyter.notebookFileRoot": "${workspaceFolder}"
+}

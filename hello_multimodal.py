@@ -7,4 +7,4 @@ x = torch.tensor(3.0, requires_grad=True)
 y = x ** 2
 y.backward()
 print(f"自动求导自检: d(x^2)/dx 在 x=3 处 = {x.grad.item()}（期望 6.0）")
-print("环境自检全部通过 ✅")
+print("环境自检全部通过 [OK]")
